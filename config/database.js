@@ -11,6 +11,6 @@ const connectDatabase = () => {
       console.log(`Mongodb connected with server: ${data.connection.host}`);
     });
   };
-  console.log(process.env.DB_URI);
+  // console.log(process.env.DB_URI);
 
 module.exports = connectDatabase;
